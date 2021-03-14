@@ -40,6 +40,5 @@ console.log(message_data);
 getData();
 
 function BackToRoom(){
-      localStorage.removeItem("Room-name");
       window.location="kwitter_room.html";
 }
